@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Solar System Exploration</title>
+    <style>
+   
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        }
+        
+        header h1 {
+            color: #ffcc00;
+            font-size: 3rem;
+            letter-spacing: 5px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 0;
+            background-color: #333;
+         }
+        
+        header h1 {
+            color: #ffcc00;
+            font-size: 3rem;
+            letter-spacing: 5px;
+        }
+        
+        nav { 
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 0;
+            background-color: #333;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        nav a:hover {
+            color: #ffcc00;
+            text-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
+        }
+        
+        .planet-section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 40px;
+            background-color: #222;
+        }
+        
+        .planet-card {
+            background-color: #444;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .planet-card img {
+            width: 100%;
+            border-radius: 8px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+        
+        .planet-card h3 {
+            margin: 10px 0;
+            color: #ffcc00;
+        }
+        
+        .planet-card p {
+            color: #bbb;
+        }
+        
+        .planet-card:hover {
+            transform: scale(1.05);
+            background-color: #666;
+        }
+        
+        footer {
+            background-color: #1e1e1e;
+            padding: 15px;
+            text-align: center;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Solar system ✩₊˚.⋆☾⋆⁺₊✧ Hamna Hamid</h1>
+</header>
+
+<nav>
+    <a href="#mercury">Mercury</a>
+    <a href="#venus">Venus</a>
+    <a href="#earth">Earth</a>
+    <a href="#mars">Mars</a>
+    <a href="#jupiter">Jupiter</a>
+    <a href="#saturn">Saturn</a>
+    <a href="#uranus">Uranus</a>
+    <a href="#neptune">Neptune</a>
+</nav>
+
+<main>
+    <section class="planet-section" id="mercury">
+        <div class="planet-card">
+            <img src="mercury.jpg" alt="Mercury">
+            <h3>Mercury</h3>
+            <p> Mercury is the smallest planet in our solar system, closest to the Sun, with extreme temperature variations, a thin atmosphere, and a rocky, cratered surface.</p>
+        </div>
+        <div class="planet-card">
+            <img src="venus.jpg" alt="Venus">
+            <h3>Venus</h3>
+            <p>Venus is the second planet from the Sun, known for its thick, toxic atmosphere, extreme heat, volcanic surface, and retrograde rotation. It's Earth's sister planet.</p>
+        </div>
+        <div class="planet-card">
+            <img src="earth.jpg" alt="Earth">
+            <h3>Earth</h3>
+            <p>Earth is the third planet from the Sun, the only known planet with life. It has a diverse climate, liquid water, and a protective atmosphere.</p>
+        </div>
+    </section>
+
+    <section class="planet-section" id="mars">
+        <div class="planet-card">
+            <img src="mars.jpg" alt="Mars">
+            <h3>Mars</h3>
+            <p>Mars is the fourth planet from the Sun, known for its red, rocky surface, massive volcanoes, and potential signs of past water. It's often called the "Red Planet."</p>
+        </div>
+        <div class="planet-card">
+            <img src="jupiter.jpg" alt="Jupiter">
+            <h3>Jupiter</h3>
+            <p>Jupiter is the largest planet in our solar system, a gas giant with a thick atmosphere, famous for its Great Red Spot, strong magnetic field, and many moons.</p>
+        </div>
+        <div class="planet-card">
+            <img src="saturn.jpg" alt="Saturn">
+            <h3>Saturn</h3>
+            <p>Saturn is the sixth planet from the Sun, known for its stunning ring system, composed of ice and rock, and its numerous moons, including Titan.</p>
+        </div>
+    </section>
+
+    <section class="planet-section" id="uranus">
+        <div class="planet-card">
+            <img src="uranus.jpg" alt="Uranus">
+            <h3>Uranus</h3>
+            <p>Uranus is the seventh planet from the Sun, an ice giant with a blue-green color due to methane, a tilted rotation axis, and faint ring systems.</p>
+        </div>
+        <div class="planet-card">
+            <img src="neptune.jpg" alt="Neptune">
+            <h3>Neptune</h3>
+            <p>Neptune is the eighth and farthest planet from the Sun, an ice giant with a deep blue color, strong winds, and a storm system known as the Great Dark Spot.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    By Hamna Hamid.</p>
+</footer>
+
+</body>
+</html>
